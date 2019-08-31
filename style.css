@@ -20,6 +20,10 @@ html, body {
   text-align: center;
   padding-top: 50px;
 }
+.landing-inner p {
+  padding-top: 4%;
+  text-align: center;
+}
 
 .landing {
   position: relative;
@@ -29,12 +33,8 @@ html, body {
   height: 100vh;
 }
 
-.landing h1 {
+.landing h2 {
   font-size: 50px;
-}
-
-.landing p {
-  font-size: 20px;
 }
 
 .countdown {
