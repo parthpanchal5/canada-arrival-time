@@ -18,7 +18,7 @@ const intvl = setInterval(() => {
   const seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
   // Display result
-  countdown.innerHTML = `<div>${days}<span>Days</span></div> <div>${hours}<span>Hours</span></div> <div>${mins}<span>Mins</span></div> <div>${seconds}<span>Sec</span></div>`;
+  countdown.innerHTML = `<div>${days}<span>Days left</span></div> <div>${hours}<span>Hours</span></div> <div>${mins}<span>Mins</span></div> <div>${seconds}<span>Sec</span></div>`;
 
   // If launch date is reached
   if (distance < 0) 
